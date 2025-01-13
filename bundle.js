@@ -7298,7 +7298,7 @@
 				key: "update",
 				value: function(t) {
 					if (!this.timesUp) { // Roey: In the next line I added '  document.getElementById("done-adding").style.display = "block";   ' to make the EndGame button reappear at the end of the game. Also changed 72e4 to 6e4 to make it one minute and not 12
-						3e4 < t && (this.timesUp = !0, document.getElementById("add-shape").disabled = !0, X.length < 5 ? (document.getElementById("stuck-message").style.display = "block", document.getElementById("done-adding").disabled = !0) : (document.getElementById("continue-message").style.display = "block", document.getElementById("done-adding").disabled = !1));
+						3e4 < t && (this.timesUp = !0, document.getElementById("add-shape").disabled = !0, document.getElementById("done-adding").style.display = "block", X.length < 5 ? (document.getElementById("stuck-message").style.display = "block", document.getElementById("done-adding").disabled = !0) : (document.getElementById("continue-message").style.display = "block", document.getElementById("done-adding").disabled = !1));
 						var n, e, r, i, o, u, a, c, s, f, l, h, d = !0,
 							v = !1,
 							p = void 0;
